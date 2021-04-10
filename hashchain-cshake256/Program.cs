@@ -8,7 +8,7 @@ namespace hashchain_cshake256 {
     private static void Main() {
       Console.WriteLine("Hello World!");
 
-      const int hashchainLength = 1000_0000;
+      const int hashchainLength = 1000_000;
       
       //해시체인 시드
       var randomBytes = new byte[1000];
@@ -16,7 +16,7 @@ namespace hashchain_cshake256 {
       //시드 생성
       c.GetBytes(randomBytes);
       
-      const int outputLength = 32;
+      const int outputLength = 25;
       const string functionName = "hello";
       const string customization = "world";
       
